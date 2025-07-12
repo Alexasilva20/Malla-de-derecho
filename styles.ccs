@@ -1,0 +1,68 @@
+body {body {
+  font-family: "segoe ui", sans-serif;
+  background: #ffeaf4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #d63384;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.semestre {
+  background-color: #fff0f6;
+  border-left: 6px solid #ff9acb;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.semestre h2 {
+  color: #b3005e;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.semestre ul {
+  list-style: none;
+  padding: 0;
+}
+
+.semestre ul li {
+  background: #ffe3f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+/* efecto al pasar el mouse */
+.semestre ul li:hover {
+  background: #ffd6eb;
+}
+
+/* ✅ ramos aprobados */
+.aprobado {
+  background: #caffbf !important;
+  font-weight: bold;
+  color: #155724;
+}
+
+/* 📚 ramos en curso */
+.en-curso {
+  background: #fdffb6 !important;
+  font-weight: bold;
+  color: #7a5900;
+}
+
+/* ⏳ ramos pendientes */
+.pendiente {
+  background: #ffadad !important;
+  color: #721c24;
+￼enter
